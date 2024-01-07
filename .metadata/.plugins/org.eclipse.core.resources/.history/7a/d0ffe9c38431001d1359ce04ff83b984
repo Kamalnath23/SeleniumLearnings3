@@ -1,0 +1,15 @@
+package section15;
+
+import org.openqa.selenium.WebDriver;
+
+public class RScode1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		
+		
+
+	}
+
+}

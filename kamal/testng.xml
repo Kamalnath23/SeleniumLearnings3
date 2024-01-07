@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="section15.CapturingHeightAndWidthOfWEforUXvalidation"/>
+      <class name="Section11.PrintTheCountLinksInPage"/>
+      <class name="section7.HandleCalenderUIinTravelWebSites"/>
+      <class name="Section14.javaStreamTest1"/>
+      <class name="section6.NewTestFirefox"/>
+      <class name="section8.BuildProgrammingLogicToProcessItemsInArrayForCart"/>
+      <class name="Section12.HandleTableGridsInWebPages"/>
+      <class name="Section10.Assignment2"/>
+      <class name="Section9.FluentWaitTest"/>
+      <class name="Section12.NewAssignment2_2"/>
+      <class name="section7.Dropdown"/>
+      <class name="Section14.WebTableSortedJavaStreams"/>
+      <class name="section15.InvokingMultipleTabsOrWindows"/>
+      <class name="Section11.CalenderUIinTravelSites"/>
+      <class name="Section11.cals_make_my_trip_UI"/>
+      <class name="section7.AutoSuggestiveDropdown"/>
+      <class name="Section14.AutomationPaginationScenariosToSearchTheDataUsingDoWhile"/>
+      <class name="section13.ScreenTest"/>
+      <class name="Section10.ActionDemo"/>
+      <class name="Section11.GettingTitlesOfChildTabWithOptiisedWhileLoop"/>
+      <class name="Section12.scrollingWindowsTables"/>
+      <class name="Section14.FilterWebTable"/>
+      <class name="section13.AutomateBrokenURLs"/>
+      <class name="section7.Assignment2_Copy"/>
+      <class name="Section10.windowsHandleConcepts"/>
+      <class name="Section14.CustomSeleniumMethodStreamMapper"/>
+      <class name="Section11.Assignment_1_Dynamic"/>
+      <class name="section6.NewTestMSEdge"/>
+      <class name="section7.handlingCheckBoxAndGettingTheSizeOfThem"/>
+      <class name="section6.uniqueTagNameLocatorsCopy"/>
+      <class name="section15.IntroToRelativeLocators"/>
+      <class name="Section9.assignment"/>
+      <class name="section7.E2E2"/>
+      <class name="section7.HandlingDynamicDropdown"/>
+      <class name="section8.DebuggingTheCodeToUnderstandHowTheFlowIsBuilt"/>
+      <class name="section7.AutoSuggestive"/>
+      <class name="section7.HandlingJavaAlerts"/>
+      <class name="section7.HandlingStaticDropdownWithSelectWebDriverAPI"/>
+      <class name="section7.Assignment2"/>
+      <class name="section7.Assignment1"/>
+      <class name="section7.HandlingJavaAlerts2"/>
+      <class name="section13.Miscellaneous"/>
+      <class name="section7.ValidatingUIElementsDisabledorEnabled"/>
+      <class name="section7.e2e"/>
+      <class name="section13.SSLCheck2"/>
+      <class name="section15.TakingWebElementPartialScreenShot"/>
+      <class name="section6.Locators"/>
+      <class name="section8.AddingItemsIntoCart"/>
+      <class name="Section9.Wait2"/>
+      <class name="Section12.NewAssignment2_autodropdownbox"/>
+      <class name="Section10.FrameTest"/>
+      <class name="section6.dynamicPassword"/>
+      <class name="Section10.AssignmentTest1"/>
+      <class name="section7.AssertionImportance"/>
+      <class name="Section11.SNTest"/>
+      <class name="Section12.NewAssigment1"/>
+      <class name="section6.siblimgWithXpathTransverse"/>
+      <class name="section6.BrowserActivities"/>
+      <class name="section7.HandlingDynamicDropdown2"/>
+      <class name="section7.LatestDropdownLoopingUI"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

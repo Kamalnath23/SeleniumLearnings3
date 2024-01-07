@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Section9.Wait&apos; to &apos;Wait2&apos;&#x0D;&#x0A;- Original project: &apos;kamal&apos;&#x0D;&#x0A;- Original element: &apos;Section9.Wait&apos;&#x0D;&#x0A;- Renamed element: &apos;Section9.Wait2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Wait&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Section9{Wait.java[Wait" matchStrategy="1" name="Wait2" qualified="false" references="true" similarDeclarations="false" stamp="1661332996147" textual="false" version="1.0"/>
+</session>

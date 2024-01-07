@@ -1,0 +1,21 @@
+package section15;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class RScode1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		
+		System.setProperty("webdriver.chrome.driver",
+				"D:\\IT Skill Up Zone - Practicals\\SELENIUM AUTOMATION FROM BASICS\\Chrome\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		
+
+	}
+
+}

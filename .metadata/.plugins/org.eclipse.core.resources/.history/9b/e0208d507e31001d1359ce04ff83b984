@@ -1,0 +1,58 @@
+package section15;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import static org.openqa.selenium.support.locators.RelativeLocator.*;
+
+public class IntroToRelativeLocators {
+	WebDriver driver;
+
+	@Test
+	public void f() {
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		WebElement name = driver.findElement(
+				By.xpath("//input[@name='name'][@class='form-control ng-untouched ng-pristine ng-invalid']"));
+
+		WebElement nameLabel = driver.findElement(with(By.tagName("label")).above(name));
+
+		String LableOfName = nameLabel.getText();
+		System.out.println(LableOfName);
+
+	}
+
+//Relative locaotors with real time example
+	@Test
+	public void f2() {
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		WebElement DOB_Label = driver.findElement(By.xpath("//label[@for='dateofBirth']"));
+		// Note: flex elements wont be identified
+		WebElement SUBMIT = driver.findElement(with(By.tagName("input")).below(DOB_Label));
+		SUBMIT.click();
+
+	}
+	
+	@Test
+	public void f3() {
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		
+	}
+
+	@BeforeMethod
+	public void beforeMethod() {
+		System.setProperty("webdriver.chrome.driver",
+				"D:\\IT Skill Up Zone - Practicals\\SELENIUM AUTOMATION FROM BASICS\\Chrome\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		// driver.close();
+	}
+
+}

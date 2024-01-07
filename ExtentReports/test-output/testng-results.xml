@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-05T18:56:27 IST" name="Default suite" finished-at="2022-10-05T18:56:33 IST" duration-ms="6433">
+    <groups>
+    </groups>
+    <test started-at="2022-10-05T18:56:27 IST" name="Default test" finished-at="2022-10-05T18:56:33 IST" duration-ms="6433">
+      <class name="KamalIndustsries.ExtentReports.ExtentReportsDemo1">
+        <test-method is-config="true" signature="configurationOfExtentReport()[pri:0, instance:KamalIndustsries.ExtentReports.ExtentReportsDemo1@223d2c72]" started-at="2022-10-05T18:56:27 IST" name="configurationOfExtentReport" finished-at="2022-10-05T18:56:27 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurationOfExtentReport -->
+        <test-method signature="initialDemo()[pri:0, instance:KamalIndustsries.ExtentReports.ExtentReportsDemo1@223d2c72]" started-at="2022-10-05T18:56:27 IST" name="initialDemo" finished-at="2022-10-05T18:56:33 IST" duration-ms="6058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- KamalIndustsries.ExtentReports.ExtentReportsDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
